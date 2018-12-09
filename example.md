@@ -81,7 +81,7 @@ You should change the names of the `.md` and `.docx` files in that command to ma
 
 We're using [Git](https://git-scm.com/) for version control of our documents. In Atom, you need to install the git-plus package. After adding some text to your Markdown file, save it, then press `Control` + `shift`+ `p` to get the command palette, then type 'Git add all and commit', and click on the matching text.
 
-Then you'll get a little window pop up, type in a brief commit message, then save (`Control` + `s`) and it will auto-close.
+Then you'll get a little window pop up, type in a brief commit message, then save (`Control` + `s`) and it will auto-close. You can also keep track of your Git database by clicking on the "Git" item on the far right of the lower status bar. 
 
 
 
