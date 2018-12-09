@@ -85,7 +85,7 @@ We're using [Git](https://git-scm.com/) for version control of our documents. In
 
 Then you'll get a little window pop up, type in a brief commit message, then save (`Control` + `s`) and it will auto-close. You can also keep track of your Git database by clicking on the "Git" item on the far right of the lower status bar. You can do a commit from that button also.
 
-Go to GitHub and create a new repository and add it as a remote to your project's Git repository. Then you can push from Atom. 
+Go to GitHub and create a new repository and add it as a remote to your project's Git repository (using the terminal). Then you can continue to commit and push from Atom, and have your work backed up on GitHub.  
 
 
 
