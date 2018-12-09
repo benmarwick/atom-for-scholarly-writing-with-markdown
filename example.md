@@ -79,7 +79,7 @@ You should change the names of the `.md` and `.docx` files in that command to ma
 
 ## Tracking changes and version Control
 
-We're using Git
+We're using [Git](https://git-scm.com/) for version control of our documents. In Atom, you need to install the git-plus package. 
 
 
 ### References
