@@ -77,5 +77,9 @@ To convert the Markdown document into a MS Word docx document we use the termina
 
 You should change the names of the `.md` and `.docx` files in that command to match your own files.
 
+## Tracking changes and version Control
+
+We're using Git
+
 
 ### References
