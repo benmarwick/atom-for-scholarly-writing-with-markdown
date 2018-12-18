@@ -17,6 +17,7 @@ Install these packages into Atom by pressing `Ctrl` + `Shift` + `P` to show the 
 - linter-write-good
 - linter-just-say-no (say 'yes' to all prompts)
 - linter-alex
+- linter-proselint (need to `pip install proselint` in terminal first)
 - autosave (Settings -> check the box to enable)
 - markdown-writer
 - markdown-preview-enhanced
@@ -37,7 +38,7 @@ There are two easy ways to add a citation:
 
 1. Assuming that you have a `.bib` file in the same directory as the `.md` file, and that file has details in it, then in your Markdown document, type `[` then `@` and then the first few characters of the bibtex key, and choose which item to autocomplete, like this:  `[@marwick_computational_2016]`
 
-2. Or, when writing your `.md` file, press `Control` + `z` to get the Zotero search bar to pop up. Then type in the seach bar and choose the item you want. Press `Enter` and you'll get a bibtex key like this in your text: `@marwick_computational_2016` You will still need to paste the full bibtex record into your local `.bib` file.
+2. Or, when writing your `.md` file, press `Control` + `z` to get the Zotero search bar to pop up. Then type in the search bar and choose the item you want. Press `Enter` and you'll get a bibtex key like this in your text: `@marwick_computational_2016` You will still need to paste the full bibtex record into your local `.bib` file.
 
 ## Citation Syntax
 
