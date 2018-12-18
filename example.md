@@ -5,19 +5,24 @@ bibliography: bibliography.bib
 
 # Quick guide to scholarly writing in Markdown with Atom
 
-This is an example markdown document with some details about how to do scholarly writing in Markdown using Atom. You'll need these packages installed first:
+This is an example markdown document with some details about how to do scholarly writing in Markdown using Atom.
+
+Download and install atom from https://atom.io/
+
+Install these packages into Atom by pressing `Ctrl` + `Shift` + `P` to show the command palette, and type `install packages` and press enter, then enter these package names one by one, and click 'install' for each package:
 
 - zotero-picker
 - autocomplete-bibtex
 - wordcount (Settings -> turn it on after installing)
 - linter-write-good
 - linter-just-say-no (say 'yes' to all prompts)
+- linter-alex
 - autosave (Settings -> check the box to enable)
 - markdown-writer
 - markdown-preview-enhanced
 - language-pfm
 - pandoc-convert
-- platformio-ide-terminal
+- platformio-ide-terminal (`Ctrl` + \` to show/hide)
 - git-plus
 
 Outside of Atom, you will need to install:
@@ -30,13 +35,13 @@ Outside of Atom, you will need to install:
 
 There are two easy ways to add a citation:
 
-1. Assuming that you have a `.bib` file in the same directory as the `.md` file, and that file has details in it, then in your Markdown documner, type `[` then `@` and then the first few characters of the bibtex key, and choose which item to autocomplete, like this:  `[@marwick_computational_2016]`
+1. Assuming that you have a `.bib` file in the same directory as the `.md` file, and that file has details in it, then in your Markdown document, type `[` then `@` and then the first few characters of the bibtex key, and choose which item to autocomplete, like this:  `[@marwick_computational_2016]`
 
 2. Or, when writing your `.md` file, press `Control` + `z` to get the Zotero search bar to pop up. Then type in the seach bar and choose the item you want. Press `Enter` and you'll get a bibtex key like this in your text: `@marwick_computational_2016` You will still need to paste the full bibtex record into your local `.bib` file.
 
 ## Citation Syntax
 
-With minor modifications we can get all the usual configurations of citations in our sentences:
+With minor modifications we can get all the usual configurations of citations in our sentences (from https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html):
 
 `Blah blah [see @marwick_computational_2016, pp. 33-35; also @marwick2018standard, ch. 1].`
 
@@ -83,10 +88,18 @@ You should change the names of the `.md` and `.docx` files in that command to ma
 
 We're using [Git](https://git-scm.com/) for version control of our documents. In Atom, you need to install the git-plus package. After adding some text to your Markdown file, save it, then press `Control` + `shift`+ `p` to get the command palette, then type 'Git add all and commit', and click on the matching text.
 
-Then you'll get a little window pop up, type in a brief commit message, then save (`Control` + `s`) and it will auto-close. You can also keep track of your Git database by clicking on the "Git" item on the far right of the lower status bar. You can do a commit from that button also.
+Then you'll get a little window pop up, type in a brief commit message, then save (`Control` + `s`) and it will auto-close.
 
-Go to GitHub and create a new repository and add it as a remote to your project's Git repository. Then you can push from Atom. 
+You can also keep track of your Git database by clicking on the "Git" item on the far right of the lower status bar. You can do a commit from that button also.
 
-
+Go to GitHub and create a new repository and add it as a remote to your project's Git repository. Then you can push from Atom.
 
 ### References
+
+### Further reading
+
+- http://u.arizona.edu/~selisker/post/workflow/
+- https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
+- http://plain-text.co
+- https://the-javascripting-english-major.org/1-environment
+- https://discuss.atom.io/t/using-atom-for-academic-writing/19222
