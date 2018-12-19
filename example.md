@@ -99,8 +99,8 @@ Go to GitHub and create a new repository and add it as a remote to your project'
 
 ### Further reading
 
-- http://u.arizona.edu/~selisker/post/workflow/
-- https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
-- http://plain-text.co
-- https://the-javascripting-english-major.org/1-environment
-- https://discuss.atom.io/t/using-atom-for-academic-writing/19222
+- <http://u.arizona.edu/~selisker/post/workflow/>
+- <https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown>
+- <http://plain-text.co>
+- <https://the-javascripting-english-major.org/1-environment>
+- <https://discuss.atom.io/t/using-atom-for-academic-writing/19222>
