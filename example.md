@@ -7,7 +7,7 @@ bibliography: bibliography.bib
 
 This is an example markdown document with some details about how to do scholarly writing in Markdown using Atom.
 
-Download and install atom from https://atom.io/
+Download and install atom from [https://atom.io/](https://atom.io/)
 
 Install these packages into Atom by pressing `Ctrl` + `Shift` + `P` to show the command palette, and type `install packages` and press enter, then enter these package names one by one, and click 'install' for each package:
 
