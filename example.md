@@ -104,3 +104,4 @@ Go to GitHub and create a new repository and add it as a remote to your project'
 - <http://plain-text.co>
 - <https://the-javascripting-english-major.org/1-environment>
 - <https://discuss.atom.io/t/using-atom-for-academic-writing/19222>
+- <https://hackernoon.com/lint-lint-and-away-linters-for-the-english-language-70f4b22cc73c>
