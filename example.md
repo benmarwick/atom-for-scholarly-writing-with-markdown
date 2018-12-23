@@ -9,22 +9,18 @@ This is an example markdown document with some details about how to do scholarly
 
 Download and install atom from [https://atom.io/](https://atom.io/)
 
-Install these packages into Atom by pressing `Ctrl` + `Shift` + `P` to show the command palette, and type `install packages` and press enter, then enter these package names one by one, and click 'install' for each package:
+After opening Atom, install these packages into Atom by pressing `Ctrl` + `,`  then click on 'Install',  then enter these package names one by one, and click 'install' for each package:
 
 - zotero-picker
 - autocomplete-bibtex
 - wordcount (Settings -> turn it on after installing)
-- linter-write-good
-- linter-just-say-no (say 'yes' to all prompts)
-- linter-alex
-- linter-proselint (need to `pip install proselint` in terminal first)
+- linter-retextjs
 - autosave (Settings -> check the box to enable)
 - markdown-writer
 - markdown-preview-enhanced
 - language-pfm
 - pandoc-convert
 - platformio-ide-terminal (`Ctrl` + \` to show/hide)
-- git-plus
 
 Outside of Atom, you will need to install:
 
@@ -87,11 +83,9 @@ You should change the names of the `.md` and `.docx` files in that command to ma
 
 ## Tracking changes and version Control
 
-We're using [Git](https://git-scm.com/) for version control of our documents. In Atom, you need to install the git-plus package. After adding some text to your Markdown file, save it, then press `Control` + `shift`+ `p` to get the command palette, then type 'Git add all and commit', and click on the matching text.
+We're using [Git](https://git-scm.com/) for version control of our documents.
 
-Then you'll get a little window pop up, type in a brief commit message, then save (`Control` + `s`) and it will auto-close.
-
-You can also keep track of your Git database by clicking on the "Git" item on the far right of the lower status bar. You can do a commit from that button also.
+You can keep track of your Git database by clicking on the "Git" item on the far right of the lower status bar. You can do a commit from that button.
 
 Go to GitHub and create a new repository and add it as a remote to your project's Git repository. Then you can push from Atom.
 
