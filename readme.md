@@ -14,12 +14,13 @@ After opening Atom, install these packages into Atom by pressing `Ctrl` + `,`  t
 - [autocomplete-en-en](https://atom.io/packages/autocomplete-en-en)
 - [autocomplete-bibtex](https://atom.io/packages/autocomplete-bibtex)
 - [autosave](https://atom.io/packages/autosave) (Settings -> check the box to enable)
-- [wordcount](https://atom.io/packages/wordcount) (Settings -> turn it on after installing)
+- [highlight-selected](https://atom.io/packages/highlight-selected)
 - [language-markdown](https://atom.io/packages/language-markdown)
 - [linter-retextjs](https://atom.io/packages/linter-retextjs)
 - [markdown-preview-enhanced](https://atom.io/packages/markdown-preview-enhanced)
 - [pandoc-convert](https://atom.io/packages/pandoc-convert)
 - [platformio-ide-terminal](https://atom.io/packages/platformio-ide-terminal) (`Ctrl` + \` to show/hide)
+- [wordcount](https://atom.io/packages/wordcount) (Settings -> turn it on after installing)
 - [zotero-picker](https://atom.io/packages/zotero-picker)
 
 Outside of Atom, you will need to install:
@@ -36,9 +37,20 @@ There are two easy ways to add a citation:
 
 2. Or, when writing your `.md` file, press `Alt` + `z` to get the Zotero search bar to pop up. Then type in the search bar and choose the item you want. Press `Enter` and you'll get a bibtex key like this in your text: `@marwick_computational_2016` You will still need to paste the full bibtex record into your local `.bib` file.
 
+Look at the YAML front matter of this file to see how to link your `.bib` file to your `.md` file, it should be something like this:
+
+```
+---
+csl: chicago-author-date.csl
+bibliography: bibliography.bib
+---
+```
+
+You need both of these files in the same directory as your `.md` file. The `.csl` file sets the style of your in-text citations and the items in the reference list. We can get different ones from here: <https://github.com/citation-style-language/styles> (be sure to download the raw, plain text file, not the website). The `.bib` is one you make by putting the full bibliopgraphic details from your Zotero library into this `.bib` file that lives with your `.md` file.
+
 ## Citation Syntax
 
-With minor modifications we can get all the usual configurations of citations in our sentences (from https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html):
+With minor modifications we can get all the usual configurations of citations in our sentences (from [RStudio](https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html)):
 
 `Blah blah [see @marwick_computational_2016, pp. 33-35; also @marwick2018standard, ch. 1].`
 
@@ -99,3 +111,4 @@ Go to GitHub and create a new repository and add it as a remote to your project'
 - <https://the-javascripting-english-major.org/1-environment>
 - <https://discuss.atom.io/t/using-atom-for-academic-writing/19222>
 - <https://hackernoon.com/lint-lint-and-away-linters-for-the-english-language-70f4b22cc73c>
+- Other fun Atom packages to explore: <https://atom.io/users/benmarwick/stars>
