@@ -11,7 +11,7 @@ Download and install atom from [https://atom.io/](https://atom.io/)
 
 After opening Atom, install these packages into Atom by pressing `Ctrl` + `,`  then click on 'Install',  then enter these package names one by one, and click 'install' for each package:
 
-
+- [autocomplete-en-en](https://atom.io/packages/autocomplete-en-en)
 - [autocomplete-bibtex](https://atom.io/packages/autocomplete-bibtex)
 - [autosave](https://atom.io/packages/autosave) (Settings -> check the box to enable)
 - [wordcount](https://atom.io/packages/wordcount) (Settings -> turn it on after installing)
@@ -85,7 +85,7 @@ You should change the names of the `.md` and `.docx` files in that command to ma
 
 We're using [Git](https://git-scm.com/) for version control of our documents.
 
-You can keep track of your Git database by clicking on the "Git" item on the far right of the lower status bar. You can do a commit from that button.
+You can keep track of your Git database by clicking on the "Git" icon on the far right of the lower status bar. You can do a commit from that button.
 
 Go to GitHub and create a new repository and add it as a remote to your project's Git repository. Then you can push from Atom.
 
