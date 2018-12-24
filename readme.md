@@ -15,6 +15,7 @@ After opening Atom, install these packages into Atom by pressing `Ctrl` + `,`  t
 - [autocomplete-bibtex](https://atom.io/packages/autocomplete-bibtex)
 - [autosave](https://atom.io/packages/autosave) (Settings -> check the box to enable)
 - [wordcount](https://atom.io/packages/wordcount) (Settings -> turn it on after installing)
+- [language-markdown](https://atom.io/packages/language-markdown)
 - [language-pfm](https://atom.io/packages/language-pfm)
 - [linter-retextjs](https://atom.io/packages/linter-retextjs)
 - [markdown-preview-enhanced](https://atom.io/packages/markdown-preview-enhanced)
