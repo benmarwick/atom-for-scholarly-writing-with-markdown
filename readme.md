@@ -20,8 +20,8 @@ After opening Atom, install these packages into Atom by pressing `Ctrl` + `,`  t
 - [markdown-writer](https://atom.io/packages/markdown-writer)
 - [markdown-preview-enhanced](https://atom.io/packages/markdown-preview-enhanced)
 - [pandoc-convert](https://atom.io/packages/pandoc-convert)
-- [platformio-ide-terminal](https://atom.io/packages/[platformio-ide-terminal) (`Ctrl` + \` to show/hide)
-- [zotero-picker](https://atom.io/packages/[zotero-picker)
+- [platformio-ide-terminal](https://atom.io/packages/platformio-ide-terminal) (`Ctrl` + \` to show/hide)
+- [zotero-picker](https://atom.io/packages/zotero-picker)
 
 Outside of Atom, you will need to install:
 
