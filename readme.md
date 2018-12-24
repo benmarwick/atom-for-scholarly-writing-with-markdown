@@ -11,16 +11,17 @@ Download and install atom from [https://atom.io/](https://atom.io/)
 
 After opening Atom, install these packages into Atom by pressing `Ctrl` + `,`  then click on 'Install',  then enter these package names one by one, and click 'install' for each package:
 
-- zotero-picker
-- autocomplete-bibtex
-- wordcount (Settings -> turn it on after installing)
-- linter-retextjs
-- autosave (Settings -> check the box to enable)
-- markdown-writer
-- markdown-preview-enhanced
-- language-pfm
-- pandoc-convert
-- platformio-ide-terminal (`Ctrl` + \` to show/hide)
+
+- [autocomplete-bibtex](https://atom.io/packages/autocomplete-bibtex)
+- [autosave](https://atom.io/packages/autosave) (Settings -> check the box to enable)
+- [wordcount](https://atom.io/packages/wordcount) (Settings -> turn it on after installing)
+- [language-pfm](https://atom.io/packages/language-pfm)
+- [linter-retextjs](https://atom.io/packages/[linter-retextjs)
+- [markdown-writer](https://atom.io/packages/[markdown-writer)
+- [markdown-preview-enhanced](https://atom.io/packages/markdown-preview-enhanced)
+- [pandoc-convert](https://atom.io/packages/pandoc-convert)
+- [platformio-ide-terminal](https://atom.io/packages/[platformio-ide-terminal) (`Ctrl` + \` to show/hide)
+- [zotero-picker](https://atom.io/packages/[zotero-picker)
 
 Outside of Atom, you will need to install:
 
