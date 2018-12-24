@@ -17,7 +17,6 @@ After opening Atom, install these packages into Atom by pressing `Ctrl` + `,`  t
 - [wordcount](https://atom.io/packages/wordcount) (Settings -> turn it on after installing)
 - [language-pfm](https://atom.io/packages/language-pfm)
 - [linter-retextjs](https://atom.io/packages/linter-retextjs)
-- [markdown-writer](https://atom.io/packages/markdown-writer)
 - [markdown-preview-enhanced](https://atom.io/packages/markdown-preview-enhanced)
 - [pandoc-convert](https://atom.io/packages/pandoc-convert)
 - [platformio-ide-terminal](https://atom.io/packages/platformio-ide-terminal) (`Ctrl` + \` to show/hide)
