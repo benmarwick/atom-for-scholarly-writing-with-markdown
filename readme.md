@@ -11,7 +11,6 @@ Download and install atom from [https://atom.io/](https://atom.io/)
 
 After opening Atom, install these packages into Atom by pressing `Ctrl` + `,`  then click on 'Install',  then enter these package names one by one, and click 'install' for each package:
 
-- [autocomplete-bibtex](https://atom.io/packages/autocomplete-bibtex)
 - [autosave](https://atom.io/packages/autosave) (Settings -> check the box to enable)
 - [highlight-selected](https://atom.io/packages/highlight-selected)
 - [language-markdown](https://atom.io/packages/language-markdown)
