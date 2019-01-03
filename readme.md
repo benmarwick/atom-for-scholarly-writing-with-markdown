@@ -5,9 +5,9 @@ bibliography: bibliography.bib
 
 # Quick guide to scholarly writing in Markdown with Atom
 
-This is an example markdown document with some details about how to do scholarly writing in Markdown using Atom.
+This is an example markdown document with some details about how to do scholarly writing in Markdown using [Atom](https://atom.io/). We're using Atom because it's a free, easy-to-use text editor that we can extend with [packages](https://atom.io/packages) to save us time and effort.
 
-Download and install atom from [https://atom.io/](https://atom.io/)
+Before reading on, download and install Atom from [https://atom.io/](https://atom.io/)
 
 After opening Atom, install these packages into Atom by pressing `Ctrl` + `,`  then click on 'Install',  then enter these package names one by one, and click 'install' for each package:
 
@@ -25,9 +25,31 @@ Outside of Atom, you will need to install:
 - [Zotero](https://www.zotero.org/) and its [connector for Chrome](https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc?hl=en) to collect and manage citations
 - [Git](https://git-scm.com/) to keep track of different versions of our documents
 
-## Adding citations into the markdown text
+## Collecting scholarly references to cite in Markdown document
 
-Assuming that you have a `.bib` file in the same directory as the `.md` file, and that file has details in it, then in your Markdown document, type `[` then `@` and then the first few characters of the bibtex key, and choose which item to autocomplete, like this:  `[@marwick_computational_2016]`
+Start at [Google Scholar](https://scholar.google.com/) and search for the scholarly sources that you need for your research. In the list of results, click on the small double quotation icon at the bottom of the list item that you want to cite. In the 'Cite' pop-up, click 'BibTeX', then copy all the text you see, and paste it into your `.bib` file. It will look something like this:
+
+```
+@article{marwick_computational_2016,
+year={2016},
+issn={1072-5369},
+journal={Journal of Archaeological Method and Theory},
+doi={10.1007/s10816-015-9272-9},
+title={Computational Reproducibility in Archaeological Research: Basic Principles and a Case Study of Their Implementation},
+url={http://dx.doi.org/10.1007/s10816-015-9272-9},
+publisher={Springer US},
+keywords={Reproducible research; Computer programming; Software engineering; Australian archaeology; Open science},
+author={Marwick, Ben},
+pages={1-27},
+language={English}
+}
+```
+
+On the first line of this reference we see `marwick_computational_2016`, this is known as the 'BibTeX key'. We paste the BibTeX key into our Markdown text to cite this reference. See below for more on how to format in-text citations in Markdown. 
+
+## Adding citations into the Markdown text
+
+Assuming that you have a `.bib` file in the same directory as the `.md` or `.Rmd` file, then in your Markdown document, type `[` then `@` and paste in th BibTeX key of the item you want to cite, like this:  `[@marwick_computational_2016]`
 
 Look at the YAML front matter of this file to see how to link your `.bib` file to your `.md` file, it should be something like this:
 
@@ -75,13 +97,15 @@ You can also write an in-text citation, as follows:
 
 ## Viewing citations when writing markdown
 
+We often want to check that our citations are working as expected while we are writing so we can catch mistakes that might creep in.  
+
 Go to `Settings` -> `Packages` -> `markdown-preview-enhanced` and first, check the box for 'Use Pandoc parser', then, second, look for the option 'Pandoc options: Commandline Arguments' and paste in this text: `--filter=pandoc-citeproc`
 
 After this, when writing Markdown we can press `Control` + `shift`+ `m` and we'll see a panel with the citations processed correctly, for example, @marwick_computational_2016
 
 ## Convert Markdown to MS Word docx
 
-To convert the Markdown document into a MS Word docx document we use the terminal (start the terminal with `Command` + `shift`+ `t`), check that the terminal in is the right directory (this will be fine if you are using an Atom project) and type in `pandoc -s example.md -o example.docx --filter pandoc-citeproc`
+To convert the Markdown document into a MS Word docx document on your computer, we use Pandoc via the terminal. In Atom, start the terminal with `Command` + `shift`+ `t`, check that the terminal in is the right directory (this will be ok if you are using an Atom project) and type in `pandoc -s example.md -o example.docx --filter pandoc-citeproc`
 
 You should change the names of the `.md` and `.docx` files in that command to match your own files.
 
