@@ -19,7 +19,6 @@ After opening Atom, install these packages into Atom by pressing `Ctrl` + `,`  t
 - [pandoc-convert](https://atom.io/packages/pandoc-convert) installs Pandoc for us
 - [platformio-ide-terminal](https://atom.io/packages/platformio-ide-terminal) easily use the terminal (`Ctrl` + \` to show/hide)
 - [wordcount](https://atom.io/packages/wordcount) count the words (Settings -> turn it on after installing)
-- [zotero-picker](https://atom.io/packages/zotero-picker) insert citations from Zotero
 
 Outside of Atom, you will need to install:
 
@@ -28,11 +27,7 @@ Outside of Atom, you will need to install:
 
 ## Adding citations into the markdown text
 
-There are two easy ways to add a citation:
-
-1. Assuming that you have a `.bib` file in the same directory as the `.md` file, and that file has details in it, then in your Markdown document, type `[` then `@` and then the first few characters of the bibtex key, and choose which item to autocomplete, like this:  `[@marwick_computational_2016]`
-
-2. Or, when writing your `.md` file, press `Alt` + `z` to get the Zotero search bar to pop up. Then type in the search bar and choose the item you want. Press `Enter` and you'll get a bibtex key like this in your text: `@marwick_computational_2016` You will still need to paste the full bibtex record into your local `.bib` file.
+Assuming that you have a `.bib` file in the same directory as the `.md` file, and that file has details in it, then in your Markdown document, type `[` then `@` and then the first few characters of the bibtex key, and choose which item to autocomplete, like this:  `[@marwick_computational_2016]`
 
 Look at the YAML front matter of this file to see how to link your `.bib` file to your `.md` file, it should be something like this:
 
