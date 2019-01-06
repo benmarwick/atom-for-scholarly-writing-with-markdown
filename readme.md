@@ -27,7 +27,18 @@ Outside of Atom, you will need to install:
 
 ## Collecting scholarly references to cite in Markdown document
 
-Start at [Google Scholar](https://scholar.google.com/) and search for the scholarly sources that you need for your research. In the list of results, click on the small double quotation icon at the bottom of the list item that you want to cite. In the 'Cite' pop-up, click 'BibTeX', then copy all the text you see, and paste it into your `.bib` file. It will look something like this:
+There are two simple methods from getting scholarly references into your Markdown document: with Google Scholar, or with Zotero.
+
+To start with [Google Scholar](https://scholar.google.com/), search for the scholarly sources that you need for your research. In the list of results, click on the small double quotation icon at the bottom of the list item that you want to cite. In the 'Cite' pop-up, click 'BibTeX', then copy all the text you see, and paste it into your `.bib` file. The schematic below summarises the steps when getting your citations directly from Google Scholar:
+
+![](figures/google-scholar-to-bib-file.png)
+
+To start with [Zotero](https://www.zotero.org/) and its [connector for Chrome](https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc?hl=en), browse to the webpage of the journal article you want to cite. Then click on the 'Save to Zotero' toolbar button on Chrome. This will download the citation and the PDF to your computer. Then you can export the bibliographic details from Zotero in BibTeX format and paste them into your `.bib` file. The advantage of this method over the Google Scholar method is that you have the citation stored on your computer in Zotero, so you can easily find and reuse it. The schematic below summarises the steps for getting your citations using Zotero:
+
+![](figures/article-to-zotero-to-bib-file.png)
+
+
+Whichever method you use, you will end up with a reference in your `.bib` that looks something like this:
 
 ```
 @article{marwick_computational_2016,
@@ -45,7 +56,9 @@ language={English}
 }
 ```
 
-On the first line of this reference we see `marwick_computational_2016`, this is known as the 'BibTeX key'. We paste the BibTeX key into our Markdown text to cite this reference. See below for more on how to format in-text citations in Markdown. 
+On the first line of this reference we see `marwick_computational_2016`, this is the 'BibTeX key'. We paste the BibTeX key into our Markdown text to cite this reference. See below for more on how to format in-text citations in Markdown.
+
+
 
 ## Adding citations into the Markdown text
 
@@ -117,7 +130,11 @@ You can keep track of your Git database by clicking on the "Git" icon on the far
 
 Go to GitHub and create a new repository and add it as a remote to your project's Git repository. Then you can push from Atom.
 
-### References
+The entire sequence is shown in this gif:
+
+![](figures/writing-saving-commiting-pushing.gif)
+
+
 
 ### Further reading
 
@@ -128,3 +145,5 @@ Go to GitHub and create a new repository and add it as a remote to your project'
 - <https://discuss.atom.io/t/using-atom-for-academic-writing/19222>
 - <https://hackernoon.com/lint-lint-and-away-linters-for-the-english-language-70f4b22cc73c>
 - Other fun Atom packages to explore: <https://atom.io/users/benmarwick/stars>
+
+### References
